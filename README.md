@@ -22,6 +22,35 @@
             </GetItemInfoWithinventoryIDandBarcodesSnpp>
           </Body>
 </Envelope>
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <soap:Body>
+        <GetItemInfoWithinventoryIDandBarcodesSnppResponse xmlns="KyanOnlineSaleService">
+            <GetItemInfoWithinventoryIDandBarcodesSnppResult>
+                <state>1</state>
+                <ResponseResult>
+                    <itm3>
+                        <itmID>3429</itmID>
+                        <itmPrice>11540000</itmPrice>
+                        <itmTempPrice>0</itmTempPrice>
+                        <Quantity>1</Quantity>
+                    </itm3>
+                    <itm3>
+                        <itmID>3430</itmID>
+                        <itmPrice>11540000</itmPrice>
+                        <itmTempPrice>0</itmTempPrice>
+                        <Quantity>1</Quantity>
+                    </itm3>
+                </ResponseResult>
+                <ResponseMessage>Success</ResponseMessage>
+            </GetItemInfoWithinventoryIDandBarcodesSnppResult>
+        </GetItemInfoWithinventoryIDandBarcodesSnppResponse>
+    </soap:Body>
+</soap:Envelope>
+
 ```
 
 
