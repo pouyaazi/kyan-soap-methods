@@ -371,22 +371,6 @@ barcodes += `<string>${barcodeList[i].barcode}</string>`;
 
 ```
 
-### GetCustomerInfoWithMemberID
-```xml
-<Envelope xmlns="http://schemas.xmlsoap.org/soap/envelope/">
-          <Header>
-              <ValidationSoapHeader xmlns="KyanOnlineSaleService">
-                  <TokenAUT>${this.TokenAUT}</TokenAUT>
-              </ValidationSoapHeader>
-          </Header>
-          <Body>
-              <GetCustomerInfoWithMemberID xmlns="KyanOnlineSaleService">
-                  <MemberID>${MemberID}</MemberID>
-              </GetCustomerInfoWithMemberID>
-          </Body>
-      </Envelope>
-```
-
 
 ### GetCustomersBaseInfo
 ```xml
