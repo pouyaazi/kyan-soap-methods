@@ -584,6 +584,39 @@ barcodes += `<string>${barcodeList[i].barcode}</string>`;
           </Body>
       </Envelope>
 
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope
+	xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<soap:Body>
+		<GetItemQuantityWithInventoryIDResponse
+			xmlns="KyanOnlineSaleService">
+			<GetItemQuantityWithInventoryIDResult>
+				<state>1</state>
+				<ResponseResult>
+					<BarCodeStock>
+						<BarCode>8011530810016</BarCode>
+						<Quantity>3.0000</Quantity>
+					</BarCodeStock>
+					<BarCodeStock>
+						<BarCode>5</BarCode>
+						<Quantity>9.0000</Quantity>
+					</BarCodeStock>
+					<BarCodeStock>
+						<BarCode>4033651002983</BarCode>
+						<Quantity>1.0000</Quantity>
+					</BarCodeStock>
+				</ResponseResult>
+				<ResponseMessage>Success</ResponseMessage>
+			</GetItemQuantityWithInventoryIDResult>
+		</GetItemQuantityWithInventoryIDResponse>
+	</soap:Body>
+</soap:Envelope>
+
+
 ```
 
 ### GetItemStockStatus
